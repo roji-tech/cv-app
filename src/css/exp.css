@@ -1,0 +1,15 @@
+.exp {
+  width: 100%;
+  height: 100px;
+  background: #cecece;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 10px;
+}
+.exp h2 {
+  color: black;
+  letter-spacing: 9px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  margin-left: 20px;
+}

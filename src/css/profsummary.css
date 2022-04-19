@@ -1,0 +1,20 @@
+.summary-wrapper {
+  background: #cecece;
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.summary-head {
+  color: black;
+  font-weight: bold;
+  font-size: xx-large;
+  letter-spacing: 9px;
+  text-decoration: underline;
+}
+.summary-head + p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 23px;
+  color: black;
+  line-height: 1.5em;
+}

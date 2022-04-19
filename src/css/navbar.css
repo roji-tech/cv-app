@@ -1,0 +1,41 @@
+/* 
+
+
+nav */
+* {
+  --very_light_blue: #ffffff;
+  --font_small: 13px;
+  --font_medium: 20px;
+  --font_big: 25px;
+  --font_bigger: 40px;
+}
+
+.nav-wrapper {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #081b4e;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  letter-spacing: 5px;
+}
+.navbar-list {
+  color: var(--very_light_blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.navbar-heading {
+  font-weight: 1000;
+  font-size: var(--font_bigger);
+  color: var(--very_light_blue);
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.nav {
+  letter-spacing: 0.5px;
+  font-size: var(--font_big);
+  padding: 2px 15px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
