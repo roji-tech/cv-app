@@ -1,5 +1,6 @@
 import React from "react";
-import '../css/navbar.css'
+import { Link } from "react-router-dom";
+import "../css/navbar.css";
 
 const NavBar = () => {
   return (
@@ -7,7 +8,9 @@ const NavBar = () => {
       <div className="navbar-heading">NavBar</div>
       <div className="navbar-list">
         <p className="nav">Edit Profile</p>
-        <p className="nav">Create New</p>
+        {/* <Link to={'new'}> */}
+          <p className="nav">Create New</p>
+        {/* </Link> */}
         <p className="nav">View List</p>
       </div>
     </div>

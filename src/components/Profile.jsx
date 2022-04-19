@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/profile.css";
-import PropTypes from "prop-types";
 
 const Profile = (props) => {
   return (

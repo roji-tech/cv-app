@@ -12,7 +12,8 @@ const Skills = () => {
         {skills.map((skill) => (
           <div className="skill">
             <img src={imag} alt="SKILL_IMG" />
-            <Skill />
+            {/* <Skill /> */}
+            <p>{skill}</p>
           </div>
         ))}
       </div>
